@@ -19,7 +19,7 @@ const Inicio = () => {
   }, [])
 
   return (
-    <section className="hero" aria-label="Hero institucional Grupo Fraxera">
+    <section id="inicio" className="hero" aria-label="Hero institucional Grupo Fraxera">
       <div className="hero-content">
         <span className="hero-eyebrow">Soluciones industriales para transporte de carga</span>
         <h1>Fabricamos carrocerías y cajas de tráiler con calidad y precisión</h1>
