@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import Inicio from './Components/Inicio/Inicio'
 import Nosotros from './Components/Nosotros/Nosotros'
+import Galeria from './Components/Galeria/Galeria'
 
 const App = () => {
   return (
@@ -15,6 +16,9 @@ const App = () => {
 
       {/* Nosotros */}
       <Nosotros />
+
+      {/* Galería */}
+      <Galeria />
 
       {/* Footer */}
       <Footer />
