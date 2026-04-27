@@ -34,6 +34,8 @@ ul{
   position: relative;
   display: inline-block;
   transition: color 0.2s, transform 0.2s;
+  text-decoration: none;
+  color: inherit;
 }
 .nav-links a {
   color: inherit;

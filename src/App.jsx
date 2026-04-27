@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import Inicio from './Components/Inicio/Inicio'
+import Nosotros from './Components/Nosotros/Nosotros'
 
 const App = () => {
   return (
@@ -11,6 +12,9 @@ const App = () => {
 
       {/* Inicio */}
       <Inicio />
+
+      {/* Nosotros */}
+      <Nosotros />
 
       {/* Footer */}
       <Footer />
