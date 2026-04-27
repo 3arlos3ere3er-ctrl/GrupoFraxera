@@ -37,10 +37,6 @@ ul{
   text-decoration: none;
   color: inherit;
 }
-.nav-links a {
-  color: inherit;
-  text-decoration: none;
-}
 .nav-links::after {
   content: '';
   position: absolute;
