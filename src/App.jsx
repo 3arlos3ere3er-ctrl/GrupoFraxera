@@ -18,11 +18,11 @@ const App = () => {
       {/* Nosotros */}
       <Nosotros />
 
-      {/* Proyectos */}
-      <Proyectos />
-
       {/* Galería */}
       <Galeria />
+
+      {/* Proyectos */}
+      <Proyectos />
 
       {/* Footer */}
       <Footer />
