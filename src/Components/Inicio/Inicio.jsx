@@ -31,9 +31,9 @@ const Inicio = () => {
           <a href="#proyectos" className="hero-button button-proyectos">
             Ver proyectos
           </a>
-          <button type="button" className="hero-button button-contacto">
+          <a href="#contacto" className="hero-button button-contacto">
             Contactar
-          </button>
+          </a>
         </div>
       </div>
 
