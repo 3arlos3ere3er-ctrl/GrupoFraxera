@@ -4,15 +4,15 @@ import "./Galeria.css";
 function Galeria() {
   const [selectedImage, setSelectedImage] = useState(null);
   const imagenes = [
-    { src: "public/carroceria1.jpg", categoria: "Carrocerías" },
-    { src: "public/carroceria2.jpg", categoria: "Trailers" },
-    { src: "public/carroceria3.jpg", categoria: "Procesos" },
-    { src: "public/carroceria4.jpg", categoria: "Instalaciones" },
-    { src: "public/carroceria5.jpg", categoria: "Producto" },
-    { src: "public/carroceria3.jpg", categoria: "Montaje" },
-    { src: "public/carroceria4.jpg", categoria: "Soldadura" },
-    { src: "public/carroceria2.jpg", categoria: "Control de calidad" },
-    { src: "public/carroceria1.jpg", categoria: "Entrega" },
+    { src: "/carroceria1.jpg", categoria: "Carrocerías" },
+    { src: "/carroceria2.jpg", categoria: "Trailers" },
+    { src: "/carroceria3.jpg", categoria: "Procesos" },
+    { src: "/carroceria4.jpg", categoria: "Instalaciones" },
+    { src: "/carroceria5.jpg", categoria: "Producto" },
+    { src: "/carroceria3.jpg", categoria: "Montaje" },
+    { src: "/carroceria4.jpg", categoria: "Soldadura" },
+    { src: "/carroceria2.jpg", categoria: "Control de calidad" },
+    { src: "/carroceria1.jpg", categoria: "Entrega" },
   ];
 
   const openModal = (imagen) => setSelectedImage(imagen);
