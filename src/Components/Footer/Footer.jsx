@@ -16,11 +16,11 @@ const Footer = () => {
                         <p>667 137 8170</p>
                     </li>
                     <li className="footer-menu">
-                        <p>Inicio</p>
-                        <p>Nosotros</p>
-                        <p>Galería</p>
-                        <p>Proyectos</p>
-                        <p>Contacto</p>
+                        <p ><a href="#inicio" className="footer-link">Inicio</a></p>
+                        <p ><a href="#nosotros" className="footer-link">Nosotros</a></p>
+                        <p ><a href="#galeria" className="footer-link">Galería</a></p>
+                        <p ><a href="#proyectos" className="footer-link">Proyectos</a></p>
+                        <p ><a href="#contacto" className="footer-link">Contacto</a></p>
                     </li>
                     <li className="footer-enlace-facebook">
                         **Poner icono de facebook que redireccione a la pagina de facebook de la empresa

@@ -28,9 +28,9 @@ const Inicio = () => {
           ofreciendo productos resistentes, funcionales y adaptados a las necesidades de cada cliente.
         </p>
         <div className="hero-actions">
-          <button type="button" className="hero-button button-proyectos">
+          <a href="#proyectos" className="hero-button button-proyectos">
             Ver proyectos
-          </button>
+          </a>
           <button type="button" className="hero-button button-contacto">
             Contactar
           </button>

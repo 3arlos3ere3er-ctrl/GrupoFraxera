@@ -53,6 +53,15 @@
     line-height: 1.8;
 }
 
+.footer-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+}
+
 .footer-derechos {
     text-align: center;
     margin-top: 10px;

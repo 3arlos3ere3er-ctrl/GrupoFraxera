@@ -5,6 +5,7 @@ import Inicio from './Components/Inicio/Inicio'
 import Nosotros from './Components/Nosotros/Nosotros'
 import Proyectos from './Components/Proyectos/Proyectos'
 import Galeria from './Components/Galeria/Galeria'
+import Contacto from './Components/Contacto/Contacto'
 
 const App = () => {
   return (
@@ -23,6 +24,9 @@ const App = () => {
 
       {/* Proyectos */}
       <Proyectos />
+
+      {/* Contacto */}
+      <Contacto />
 
       {/* Footer */}
       <Footer />
